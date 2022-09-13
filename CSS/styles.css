@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: "Poppins", sans-serif;
+    background-color: #E0FEF0;
+    text-align: center;
+}
+/*------------ Nav Bar -----------*/
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#logo {
+    margin: 10px 75px;
+}
+
+#navbar ul{
+    display: flex;
+
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 16px;
+}
+
+#navbar ul li a{
+    display: block;
+}
+#navbar ul li a.work{
+    color: #43867A;
+    display: block;
+    padding-left: 900px;
+    text-decoration: none;
+}
+#navbar ul li a.contact{
+    color: #43867A;
+    display: block;
+    padding-left: 100px;
+    text-decoration: none;
+}
+
+/*------------ H tags -----------*/
+h1{
+    color: #288877;
+}
+h2{
+    color: #288877;
+    font-size: 48px;
+}
+p{
+    color: #525252;
+    font-size: 16px;
+}
+h3{
+    color: #288877;
+}
+h4{
+    color: #288877;
+    font-size: 20px;
+}
+/*-------Text of all ----------------*/
+.text{
+    text-align: left;
+    padding-top: 20px;
+    
+}
+.text2{
+    text-align: right;
+    padding-top: 20px;
+}
+
+.name{
+    padding-top: 80px;
+    font-size: 48px;
+    text-align: left;
+}
+.para{
+    font-size: 18px;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 75px;
+    line-height: 1.4;
+}
+
+/*-------Horizontal row sec-----------*/
+
+hr{
+    border: dotted #D7D7D7 10px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+
+/*-------Alligning Head-Container section-----------*/
+.Head-Container{
+    width: 60%;
+    text-align: left;
+    margin: 40px auto 60px auto;
+    
+}
+
+
+.picture{
+        float: left;
+        margin-right: 90px;
+        margin-left: -110px;
+        text-align: left;
+
+}
+
+
+/*-------Alligning My skill section-------------*/
+.Design{
+    width: 50%;
+    margin: 80px auto 45px auto;
+    text-align: left;
+    line-height: 2;
+    
+}
+
+.Des{
+    float: left;
+    margin-right: 40px;
+}
+
+.Dev{
+    width: 50%;
+    margin: 80px auto 45px auto;
+    text-align: right;
+    line-height: 2;
+}
+.cod{
+    float: right;
+    margin-left: 40px;
+}
+
+
+/*-------Alligning Contact Me section-------------*/
+.Lower-Container{
+    width: 35%;
+    margin: auto;
+    padding-bottom: 75px;
+}
+.Work{
+    font-size: 32px;
+}
+.Work2{
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+/*-------Contact Me button-------------*/
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    color: #288877;
+    font-size: 16px;
+    background: #B7F3D5;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #79f2b5;
+    text-decoration: none;
+  }
+
+/*-------Footer-------------*/
+.footer{
+    margin-top: 75px;
+    background-color: #BBFFDD;
+    padding: 50px 0 30px;
+    position: relative;
+}
+.footer-link{
+    background-color: #BBFFDD;
+    color: #227163;
+    margin: 20px 30px;
+    text-decoration: none;
+}
+.cpyrt{
+    background-color: #BBFFDD;
+    color: #95A69E;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
